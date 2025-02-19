@@ -1,0 +1,174 @@
+@font-face {
+  font-family: 'sacramento';
+  src: url('../font/Sacramento-Regular.ttf') format('truetype');
+  font-family: 'montserrat';
+  src: url('../font/Montserrat-Regular.ttf'); format :('truetype');
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.smooth_scrool{
+  display: block;
+  transition: 1s;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    
+    
+}
+#principale{
+display: flex;
+flex-direction: column;
+}
+
+
+
+
+#accueil{
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 150px;
+}
+
+#accueil img {
+  width: 200px;
+  height: auto;
+  line-height: 0;
+}
+
+
+
+
+
+#h1{
+font-size: 70px;
+background-color: #ffffff;
+margin: 0;
+padding-top: 0;
+
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-left: 10px;
+   }
+
+#logo img {
+    width: 80px;
+    height: 60px;
+}
+
+/*NAV*/
+
+nav ul {
+    list-style-type: none;
+    display: flex;    
+ }
+ 
+ nav li{
+     margin-right: 15px;
+     display: inline;
+ }
+ 
+ nav a{
+     font-size: 1.3em;
+     color: #181818;
+     text-decoration: none;
+ }
+ 
+ nav a:hover{
+ color: #FABB0A;
+ border-bottom: 3px solid #FABB0A;
+ }
+
+body {
+    font-family: 'montserrat';
+    padding: 0;
+    background-color: #FABB0A;
+    background: url(../IMAGE/BG\ FINAL00.png);
+    background-size: 100%;
+    text-align: center;
+    
+}
+h2 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #560afa;
+    text-shadow: #181818;
+    
+    
+}
+
+
+
+/*menu*/
+.menu, .menu1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+  }
+  
+  .article {
+    text-align: center;
+  }
+  
+  .article img {
+    width: 160px;
+    height: 140px;
+    border-radius: 100%;
+  }
+  
+  .article h3 {
+    font-size: 33px;
+    font-family: 'sacramento';
+    
+  }
+  
+  .article p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .article span {
+    font-size: 17px;
+    font-weight: bold;
+    color: #fa0a47;
+  }
+
+
+#apropos{
+  height: 270px;
+  width: auto;
+  background-image: url('../IMAGE/salle.jpg');
+  padding-top: 10px;
+  background-size: cover;
+}
+
+ 
+
+footer{
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 0.3em;
+  bottom: 0;
+  width: 100%;
+  margin-top: 80px;
+  padding: 15px 0px;
+}

@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'sacramento';
+  src: url('../font/Sacramento-Regular.ttf') format('truetype');
+  font-family: 'montserrat';
+  src: url('../font/Montserrat-Regular.ttf'); format :('truetype');
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+
+}
+
+body {
+  font-family: 'montserrat';
+    padding: 0;
+    background-color: #FABB0A;
+    background: url(../IMAGE/BG\ FINAL00.png);
+    background-size: 100%;
+    text-align: center;
+}
+
+
+#principale{
+display: flex;
+flex-direction: column;
+}
+
+#logo{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-left: 10px;
+ }
+#logo img {
+  width: 80px;
+  height: 60px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li{
+   margin-right: 15px;
+   display: inline;
+}
+
+nav a{
+   font-size: 1.3em;
+   color: #181818;
+   padding-bottom: 3px;
+   text-decoration: none;
+}
+
+nav a:hover{
+color: #FABB0A;
+border-bottom: 3px solid #FABB0A;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+  }
+  
+  .article {
+    text-align: center;
+  }
+  
+  .article img {
+    width: 160px;
+    height: 140px;
+    border-radius: 100%;
+    margin-bottom: 11px;
+  }
+  
+  .article h3 {
+    font-size: 18px;
+  }
+  
+  .article p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .article span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff5733;
+  }
+
+  footer{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 0.3em;
+    bottom: 0;
+    width: 100%;
+    margin-top: 80px;
+    padding: 15px 0px;
+}
